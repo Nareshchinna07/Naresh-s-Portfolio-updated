@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naresh Dakarapu | Full Stack Developer</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+    
+    <div class="loader">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    
+    <!-- Back to Top -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Naresh</a> 
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">
+                            <i class="fas fa-home"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="fas fa-user"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="fas fa-code"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="fas fa-briefcase"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#achievements" class="nav__link">
+                            <i class="fas fa-trophy"></i> Achievements
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="fas fa-envelope"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                    <!-- Theme Toggle & Loader -->
+    <div class="theme-toggle">
+        <button id="theme-toggle" class="theme-btn">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </button>
+    </div>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+<!-- Home Section -->
+<section class="home section" id="home">
+    <div class="home__container container">
+        <div class="home__content">
+            <div class="home__intro">
+                <div class="home__badge">👋 Hello, I'm</div>
+                <h1 class="home__title">Naresh <span class="gradient-text">Dakarapu</span></h1>
+                <h2 class="home__subtitle">Java Full Stack Developer</h2>
+            </div>
+            
+            <div class="home__description">
+                <p>I build scalable web applications using modern technologies. Passionate about clean code, intuitive design, and seamless user experiences.</p>
+                
+                <div class="home__highlight">
+                    <div class="highlight__item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Java & Spring Boot Expert</span>
+                    </div>
+                    <div class="highlight__item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Full Stack Development</span>
+                    </div>
+                    <div class="highlight__item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Database Design & Optimization</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="home__actions">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-envelope"></i>
+                    <span>Get in Touch</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1BHncJReH6hEo99pbBTAJ5GF8MlTlEeJ-/view?usp=sharing" 
+                   class="btn btn-outline" target="_blank">
+                    <i class="fas fa-download"></i>
+                    <span>Download CV</span>
+                </a>
+            </div>
+            
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/naresh-dakarapu/" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://twitter.com/Nareshchinna03" class="social-link" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/naresh_dakarapu_07" class="social-link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="home__image">
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="images/main.png" alt="Naresh Dakarapu" class="profile-img">
+                    <div class="profile-frame"></div>
+                </div>
+                
+                <div class="tech-stack">
+                    <div class="tech-item java">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="tech-item spring">
+                        <i class="fas fa-leaf"></i>
+                        <span>Spring</span>
+                    </div>
+                    <div class="tech-item js">
+                        <i class="fab fa-js"></i>
+                        <span>JS</span>
+                    </div>
+                    <div class="tech-item db">
+                        <i class="fas fa-database"></i>
+                        <span>SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="scroll-indicator">
+        <a href="#about" class="scroll-down">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="about section" id="about">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">About Me</span>
+            <h2 class="section-title">My Journey in <span class="gradient-text">Development</span></h2>
+            <p class="section-description">From code to creation, here's my story</p>
+        </div>
+        
+        <div class="about__grid">
+            <div class="about__image">
+                <div class="image-wrapper">
+                    <img src="images/aboutme.png" alt="About Naresh" class="about-img">
+                    <div class="experience-badge">
+                        <span>2+</span>
+                        <small>Years Experience</small>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about__content">
+                <div class="about__intro">
+                    <h3>Building Digital Solutions with Passion</h3>
+                    <p>I'm a dedicated Java Full Stack Developer with expertise in creating robust, scalable web applications. My journey combines technical proficiency with creative problem-solving.</p>
+                </div>
+                
+                <div class="about__details">
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="detail-content">
+                            <h4>Education</h4>
+                            <p>B.Tech Graduate with focus on Computer Science & Software Engineering</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="detail-content">
+                            <h4>Specialization</h4>
+                            <p>Java Full Stack Development, REST APIs, Database Design</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="detail-content">
+                            <h4>Approach</h4>
+                            <p>Clean code, efficient solutions, and user-centric design</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-briefcase"></i>
+                    <span>View My Projects</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title" data-aos="fade-up">My <span>Skills</span></h2>
+                    <p class="section__subtitle" data-aos="fade-up" data-aos-delay="100">Technologies I work with</p>
+                </div>
+                
+                <div class="skills__container grid">
+                    <div class="skills__content" data-aos="fade-right">
+                        <h3 class="skills__title">Technical Skills</h3>
+                        
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <!-- Backend Skills -->
+                                <div class="skills__data">
+                                    <i class="fab fa-java"></i>
+                                    <div>
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                    <div class="skills__bar" data-level="90%">
+                                        <span class="skills__percentage" style="width: 90%"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class="fas fa-leaf"></i>
+                                    <div>
+                                        <h3 class="skills__name">Spring Boot</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__bar" data-level="80%">
+                                        <span class="skills__percentage" style="width: 80%"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class="fas fa-database"></i>
+                                    <div>
+                                        <h3 class="skills__name">SQL</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                    <div class="skills__bar" data-level="85%">
+                                        <span class="skills__percentage" style="width: 85%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__group">
+                                <!-- Frontend Skills -->
+                                <div class="skills__data">
+                                    <i class="fab fa-js"></i>
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__bar" data-level="75%">
+                                        <span class="skills__percentage" style="width: 75%"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class="fab fa-html5"></i>
+                                    <div>
+                                        <h3 class="skills__name">HTML5</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                    <div class="skills__bar" data-level="95%">
+                                        <span class="skills__percentage" style="width: 95%"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class="fab fa-css3-alt"></i>
+                                    <div>
+                                        <h3 class="skills__name">CSS3</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                    <div class="skills__bar" data-level="90%">
+                                        <span class="skills__percentage" style="width: 90%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__content" data-aos="fade-left">
+                        <h3 class="skills__title">Professional Skills</h3>
+                        
+                        <div class="skills__professional">
+                            <div class="professional__data">
+                                <div class="professional__titles">
+                                    <h3 class="professional__name">Problem Solving</h3>
+                                    <span class="professional__number">90%</span>
+                                </div>
+                                <div class="professional__bar">
+                                    <span class="professional__percentage" style="width: 90%"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="professional__data">
+                                <div class="professional__titles">
+                                    <h3 class="professional__name">Team Collaboration</h3>
+                                    <span class="professional__number">85%</span>
+                                </div>
+                                <div class="professional__bar">
+                                    <span class="professional__percentage" style="width: 85%"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="professional__data">
+                                <div class="professional__titles">
+                                    <h3 class="professional__name">Communication</h3>
+                                    <span class="professional__number">80%</span>
+                                </div>
+                                <div class="professional__bar">
+                                    <span class="professional__percentage" style="width: 80%"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="professional__data">
+                                <div class="professional__titles">
+                                    <h3 class="professional__name">Project Management</h3>
+                                    <span class="professional__number">75%</span>
+                                </div>
+                                <div class="professional__bar">
+                                    <span class="professional__percentage" style="width: 75%"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title" data-aos="fade-up">My <span>Projects</span></h2>
+                    <p class="section__subtitle" data-aos="fade-up" data-aos-delay="100">Featured works</p>
+                </div>
+                
+                <div class="projects__filters" data-aos="fade-up" data-aos-delay="200">
+                    <span class="project__filter active" data-filter="all">All</span>
+                    <span class="project__filter" data-filter="fullstack">Full Stack</span>
+                    <span class="project__filter" data-filter="frontend">Frontend</span>
+                    <span class="project__filter" data-filter="backend">Backend</span>
+                    <span class="project__filter" data-filter="iot">IoT</span>
+                </div>
+                
+                <div class="projects__container grid" data-aos="fade-up" data-aos-delay="300">
+                    <!-- Project 1 -->
+                    <div class="project__card" data-category="fullstack">
+                        <div class="project__image">
+                            <img src="images/frs.png" alt="FRS Project">
+                            <div class="project__overlay">
+                                <a href="#" class="project__link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="project__content">
+                            <h3 class="project__title">Face Recognition System</h3>
+                            <p class="project__description">A Flask-based application for facial recognition with real-time processing capabilities.</p>
+                            
+                            <div class="project__tags">
+                                <span class="project__tag">Flask</span>
+                                <span class="project__tag">Python</span>
+                                <span class="project__tag">OpenCV</span>
+                                <span class="project__tag">ML</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project__card" data-category="fullstack">
+                        <div class="project__image">
+                            <img src="images/kietflix.png" alt="Kietflix Project">
+                            <div class="project__overlay">
+                                <a href="#" class="project__link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="project__content">
+                            <h3 class="project__title">Kietflix</h3>
+                            <p class="project__description">Netflix clone built with MERN stack featuring video streaming and user authentication.</p>
+                            
+                            <div class="project__tags">
+                                <span class="project__tag">MERN</span>
+                                <span class="project__tag">React</span>
+                                <span class="project__tag">Node.js</span>
+                                <span class="project__tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project__card" data-category="fullstack">
+                        <div class="project__image">
+                            <img src="images/gccchatroom.png" alt="Chat Room Project">
+                            <div class="project__overlay">
+                                <a href="#" class="project__link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="project__content">
+                            <h3 class="project__title">GCC Chat Room</h3>
+                            <p class="project__description">Real-time chat application using MERN stack with Socket.io for instant messaging.</p>
+                            
+                            <div class="project__tags">
+                                <span class="project__tag">MERN</span>
+                                <span class="project__tag">Socket.io</span>
+                                <span class="project__tag">Real-time</span>
+                                <span class="project__tag">WebSockets</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 4 -->
+                    <div class="project__card" data-category="iot">
+                        <div class="project__image">
+                            <img src="images/iot.png" alt="IoT Project">
+                            <div class="project__overlay">
+                                <a href="#" class="project__link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="project__content">
+                            <h3 class="project__title">Smart Plant Monitoring</h3>
+                            <p class="project__description">IoT-based system for monitoring soil moisture with automated watering capabilities.</p>
+                            
+                            <div class="project__tags">
+                                <span class="project__tag">IoT</span>
+                                <span class="project__tag">Arduino</span>
+                                <span class="project__tag">Sensors</span>
+                                <span class="project__tag">Automation</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 5 -->
+                    <div class="project__card" data-category="fullstack">
+                        <div class="project__image">
+                            <img src="images/eshop.png" alt="Eshop Project">
+                            <div class="project__overlay">
+                                <a href="#" class="project__link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="project__content">
+                            <h3 class="project__title">E-commerce Platform</h3>
+                            <p class="project__description">Complete e-commerce solution with product management, cart, and payment integration.</p>
+                            
+                            <div class="project__tags">
+                                <span class="project__tag">MERN</span>
+                                <span class="project__tag">E-commerce</span>
+                                <span class="project__tag">Payment</span>
+                                <span class="project__tag">REST API</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 6 -->
+                    <div class="project__card" data-category="backend">
+                        <div class="project__image">
+                            <img src="images/urlshortner.png" alt="URL Shortener Project">
+                            <div class="project__overlay">
+                                <a href="#" class="project__link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="project__content">
+                            <h3 class="project__title">URL Shortener</h3>
+                            <p class="project__description">Flask-based URL shortening service with analytics and custom URL generation.</p>
+                            
+                            <div class="project__tags">
+                                <span class="project__tag">Flask</span>
+                                <span class="project__tag">Python</span>
+                                <span class="project__tag">REST API</span>
+                                <span class="project__tag">Database</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements section" id="achievements">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title" data-aos="fade-up">Achievements & <span>Experience</span></h2>
+                    <p class="section__subtitle" data-aos="fade-up" data-aos-delay="100">My journey at KIET</p>
+                </div>
+                
+                <div class="achievements__container">
+                    <div class="achievements__wrapper swiper mySwiper">
+                        <div class="achievements__content swiper-wrapper">
+
+                         <!-- Achievement 2 -->
+                            <div class="achievement__slide swiper-slide">
+                                <div class="achievement__card">
+                                    <div class="achievement__image">
+                                        <img src="https://checkmateittech.com/wp-content/uploads/2023/10/Full-Stack.jpg" alt="Global Coding Club">
+                                    </div>
+                                    
+                                    <div class="achievement__data">
+                                        <div class="achievement__header">
+                                            <i class="fas fa-code achievement__icon"></i>
+                                            <h3 class="achievement__title">Java Full Stack</h3>
+                                        </div>
+                                        
+                                        <p class="achievement__description">
+                                            Dynamic Java full stack community driving innovation through projects and skill-building workshops. Cultivated a collaborative space for devs to design, build, and deploy applications together while embracing
+
+                                        </p>
+                                        
+                                        <div class="achievement__footer">
+                                            <span class="achievement__tag">Codegnan</span>
+                                            <span class="achievement__tag">Java Full Stack</span>
+                                            <span class="achievement__tag">Trainee</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Achievement 1 -->
+                            <div class="achievement__slide swiper-slide">
+                                <div class="achievement__card">
+                                    <div class="achievement__image">
+                                        <img src="images/achivement01.JPG" alt="Teaching Assistant">
+                                    </div>
+                                    
+                                    <div class="achievement__data">
+                                        <div class="achievement__header">
+                                            <i class="fas fa-chalkboard-teacher achievement__icon"></i>
+                                            <h3 class="achievement__title">Teaching Assistant</h3>
+                                        </div>
+                                        
+                                        <p class="achievement__description">
+                                            Dedicated to fostering positive learning environments by providing guidance and support to juniors. Promoted deeper understanding of complex subjects through approachable teaching methods and commitment to student success.
+                                        </p>
+                                        
+                                        <div class="achievement__footer">
+                                            <span class="achievement__tag">Leadership</span>
+                                            <span class="achievement__tag">Mentoring</span>
+                                            <span class="achievement__tag">Education</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                           
+                            
+                            <!-- Achievement 3 -->
+                            <div class="achievement__slide swiper-slide">
+                                <div class="achievement__card">
+                                    <div class="achievement__image">
+                                        <img src="images/achivement03.JPG" alt="FMML Program">
+                                    </div>
+                                    
+                                    <div class="achievement__data">
+                                        <div class="achievement__header">
+                                            <i class="fas fa-brain achievement__icon"></i>
+                                            <h3 class="achievement__title">Machine Learning</h3>
+                                        </div>
+                                        
+                                        <p class="achievement__description">
+                                            Comprehensive journey through algorithms, predictive modeling, and AI concepts. Gained skills to transform data into intelligence through theoretical foundations and real-world applications in cutting-edge technology.
+                                        </p>
+                                        
+                                        <div class="achievement__footer">
+                                            <span class="achievement__tag">Machine Learning</span>
+                                            <span class="achievement__tag">AI</span>
+                                            <span class="achievement__tag">Data Science</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-button-next">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title" data-aos="fade-up">Contact <span>Me</span></h2>
+                    <p class="section__subtitle" data-aos="fade-up" data-aos-delay="100">Let's work together</p>
+                </div>
+                
+                <div class="contact__container grid">
+                    <div class="contact__info" data-aos="fade-right">
+                        <div class="contact__card">
+                            <i class="fas fa-envelope contact__card-icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">nareshdakarapu07@gmail.com</span>
+                          <a href="https://mail.google.com/mail/?view=cm&to=nareshdakarapu07@gmail.com"
+                            target="_blank"
+                            class="contact__button">
+                            Write me <i class="fas fa-arrow-right"></i>
+                          </a>
+
+
+                        </div>
+                        
+                        <div class="contact__card">
+                            <i class="fab fa-whatsapp contact__card-icon"></i>
+                            <h3 class="contact__card-title">WhatsApp</h3>
+                            <span class="contact__card-data">+91 9392314003</span>
+                            <a href="https://wa.me/919392314003" class="contact__button" target="_blank">
+                                Text me <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="contact__card">
+                            <i class="fas fa-map-marker-alt contact__card-icon"></i>
+                            <h3 class="contact__card-title">Location</h3>
+                            <span class="contact__card-data">Sriramavaram, India</span>
+                            <a href="https://maps.app.goo.gl/GbhQBUW4vSQxwvQz6" class="contact__button" target="_blank">
+                                View location <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                   <div class="contact__form" data-aos="fade-left">
+    <form class="contact__form-grid">
+        
+        <div class="contact__form-group">
+            <label for="name" class="contact__form-label">Full Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                class="contact__form-input"
+                placeholder="Enter your name"
+                required
+            >
+        </div>
+        
+        <div class="contact__form-group">
+            <label for="email" class="contact__form-label">Email Address</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                class="contact__form-input"
+                placeholder="Enter your email"
+                required
+            >
+        </div>
+        
+        <div class="contact__form-group">
+            <label for="phone" class="contact__form-label">Phone Number</label>
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                class="contact__form-input"
+                placeholder="Enter your phone number"
+            >
+        </div>
+        
+        <div class="contact__form-group">
+            <label for="subject" class="contact__form-label">Subject</label>
+            <input
+                type="text"
+                id="subject"
+                name="subject"
+                class="contact__form-input"
+                placeholder="Enter subject"
+                required
+            >
+        </div>
+        
+        <div class="contact__form-group contact__form-area">
+            <label for="message" class="contact__form-label">Message</label>
+            <textarea
+                id="message"
+                name="message"
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Write your message here..."
+                required
+            ></textarea>
+        </div>
+        
+        <button type="submit" class="button button--primary contact__button-form">
+            <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+        
+    </form>
+</div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">Naresh <span>Dakarapu</span></a>
+                <p class="footer__description">
+                    Java Full Stack Developer passionate about creating innovative web solutions and seamless user experiences.
+                </p>
+            </div>
+            
+            <div class="footer__content">
+                <h3 class="footer__title">Quick Links</h3>
+                <ul class="footer__links">
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">About</a></li>
+                    <li><a href="#skills" class="footer__link">Skills</a></li>
+                    <li><a href="#projects" class="footer__link">Projects</a></li>
+                    <li><a href="#contact" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer__content">
+                <h3 class="footer__title">Follow Me</h3>
+                <div class="footer__social">
+                    <a href="https://www.linkedin.com/in/naresh-dakarapu/" class="footer__social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/" class="footer__social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/Nareshchinna03" class="footer__social-link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/naresh_dakarapu_07" class="footer__social-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer__content">
+                <h3 class="footer__title">Contact Info</h3>
+                <ul class="footer__info">
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9392314003</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>nareshdakarapu07@gmail.com</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Sriramavaram, India</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer__bottom">
+            <p class="footer__copy">
+                &copy; 2024 Naresh Dakarapu. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
